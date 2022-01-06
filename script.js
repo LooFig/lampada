@@ -32,6 +32,7 @@ function desligarLampada () {
 
 function quebrarLampada () {
     lampada.src = 'img/quebrada.jpg'
+    onOff.textContent = 'Ligar';
     aviso.textContent = '';
 }
 
